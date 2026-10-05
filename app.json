@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "Belzo",
+    "slug": "belzo-food-delivery",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "belzo",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.belzo.fooddelivery",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Belzo uses your location to discover nearby artisanal kitchens and calculate accurate delivery times."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#b61715"
+      },
+      "package": "com.belzo.fooddelivery",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "resizeMode": "contain",
+          "backgroundColor": "#b61715"
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow Belzo to access your location for accurate real-time food delivery tracking."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "d0ba36cd-13fd-4bbe-a5ef-f134f5e31838"
+      }
+    }
+  }
+}

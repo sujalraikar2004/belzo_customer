@@ -1,0 +1,31 @@
+export const Typography = {
+  fontFamilies: {
+    heading: 'PlusJakartaSans-Bold',
+    subheading: 'PlusJakartaSans-SemiBold',
+    body: 'Inter-Regular',
+    bodyMedium: 'Inter-Medium',
+    bodyBold: 'Inter-SemiBold',
+  },
+  fontSize: {
+    xs: 10,
+    sm: 12,
+    base: 14,
+    md: 16,
+    lg: 18,
+    xl: 20,
+    '2xl': 24,
+    '3xl': 28,
+    '4xl': 32,
+  },
+  lineHeight: {
+    xs: 12,
+    sm: 16,
+    base: 20,
+    md: 22,
+    lg: 24,
+    xl: 28,
+    '2xl': 32,
+    '3xl': 36,
+    '4xl': 40,
+  },
+};
